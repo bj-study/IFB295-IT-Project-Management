@@ -9,8 +9,8 @@ Mark Walpole | Notes for IAB330 at the Queensland University of Technology
 	<li><a href="#IFB295">IFB295: IT Project Management</a></li>
 	<ul>
 		<li><a href="#week1">Week 1</a>: Project Management, User Stories, Scrum, and Teamwork</li>
-		<li><a href="#week2">Week 2</a>: Why Agile? Scrum framework, principles. and roles</li>
-		<li><a href="#week3">Week 3</a>: </li>
+		<li><a href="#week2">Week 2</a>: Why Agile? Scrum framework, Principles. and Roles</li>
+		<li><a href="#week3">Week 3</a>: Project cost, Velocity, Release planning, and Sprint planning meetings</li>
 		<li><a href="#week4">Week 4</a>: </li>
 		<li><a href="#week5">Week 5</a>: </li>
 		<li><a href="#week6">Week 6</a>: </li>
@@ -177,3 +177,62 @@ There's many ways of labelling an estimate for a PBI:
 - and more
 
 Planning poker is a game to help estimate the effort for each PBI. In this game each player has a set of cards (1, 2, 4, 8, 16, 32), one team member reads out the user story and each team member must place a card upside down with their estimation of the required effort. Once all cards are place they are revealed and the most common estimate becomes the effort. Everyone must then explain why their estimate is like such and whether they agree with the others or not.
+
+<br />
+
+<h2 id="week3">Week 3: Project cost, Velocity, Release planning, and Sprint planning meetings</h2>
+
+### Top-Down Guesstimate
+By looking at the team size for each sprint we can get a better estimate of how much work can be completed in the sprint. By also looking at the project as a whole we can estimate how many sprints will be needed to completed giving us an estimate of time and human resources cost.
+
+### Bottom-Up Mapping
+Bottom-up mapping is done by looking at a PBI that is one story point (or effort) and discussing everything that needs to be done to implement the feature. This process should be repeated for a few similar stories for each size grouping to bring out some consistency. With this information a conversion factor can be calculated: conversion factor = development time / story points.
+
+### Estimate Comparisons
+Once the top-down and bottom-up estimates are done they are then compared to each other. If they are not similar then a discussion takes place mentioning:
+- Any assumptions
+- Why the differences
+- Re-estimate of effort
+
+### Team Velocity
+At the end of a sprint the team will count the number of story points completed. It can be assumed that, assuming the same conditions apply next sprint, that the team will complete roughly the same amount of story points in the next sprint. This velocity can be used to convert story points into calendar effort.
+
+The initial velocity estimate should be 1/3 to 1/2 of the available time. For example, if there are 6 members working in 2 week sprints with 10 total working days in each sprint (60 days). Using the initial velocity at 1/3 results in 20 ideal working days per sprint. Subsequent sprints would then use the sprint velocity calculated from prior sprints for forward planning.
+
+### Release Planning
+Release planning is when it is determined when the deliverable is given to the product owner i.e at the end of which sprints will there be a release. User stories are grouped based on functionality and the smallest set of stories that delivers immediate business value are identified, these will make up the initial release.
+
+Release planning issues:
+- Stakeholder key dates:
+  - What happens if the release plan doesn't correspond to the stakeholders important dates
+- Balancing business value vs technical risks
+- External dependencies
+  - Risks of delay
+- Resource requirements
+  - Availability
+
+### Sprint Planning
+There are two main parts to sprint planning. During the first part a meeting occurs with the product owner where the product owner will:
+- Select stories from the backlog
+- Set sprint goals
+- Priorities stories from highest to lowest
+- Revisit release plan (are there new priorities?)
+
+The velocity for the sprint is calculated and the product owner decides what to do about incomplete stories.
+
+In the second part a meeting with the team occurs where they break down each story into a set of tasks estimating the effort for each, this becomes the sprint backlog.
+
+### Task Break Down
+Here are the things that occur when breaking down a task:
+- Read out the story
+- Brainstorm the tasks required to implement the story
+  - These should be kept short (half a day or less)
+  - Each task is written out on an index card or some other medium
+- All stories have acceptance criteria and a "verify story is complete" task
+- The tasks are then reviewed making sure everything is doable and the list seems complete
+- A comparison of tasks and stories is done to ensure nothing was forgotten or missed
+
+### During the Sprint
+During the sprint the highest priority tasks should be completed first with each developer only taking on one task at a time with stories being completed throughout the sprint. Once a story is complete (following the definition of done) the developer would then pick the next most important task and work from there. If a new task or bug is discovered during the sprint then a card is created for it and reviewed in the sprint retrospective, it is not worked on in the current sprint.
+
+Halfway through the sprint a review is done ensuring that all tasks can be finished. If not, the sprint plan is quickly redone discussing which stories are to be dropped and a confirmation is done with the product owner about the new story priorities.
