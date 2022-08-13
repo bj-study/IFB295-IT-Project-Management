@@ -11,7 +11,7 @@ Mark Walpole | Notes for IAB330 at the Queensland University of Technology
 		<li><a href="#week1">Week 1</a>: Project Management, User Stories, Scrum, and Teamwork</li>
 		<li><a href="#week2">Week 2</a>: Why Agile? Scrum framework, Principles. and Roles</li>
 		<li><a href="#week3">Week 3</a>: Project cost, Velocity, Release planning, and Sprint planning meetings</li>
-		<li><a href="#week4">Week 4</a>: </li>
+		<li><a href="#week4">Week 4</a>: Agile Manifesto, DSDM Philosophy and Principles, Success Factors and Risks</li>
 		<li><a href="#week5">Week 5</a>: </li>
 		<li><a href="#week6">Week 6</a>: </li>
 		<li><a href="#week7">Week 7</a>: </li>
@@ -236,3 +236,108 @@ Here are the things that occur when breaking down a task:
 During the sprint the highest priority tasks should be completed first with each developer only taking on one task at a time with stories being completed throughout the sprint. Once a story is complete (following the definition of done) the developer would then pick the next most important task and work from there. If a new task or bug is discovered during the sprint then a card is created for it and reviewed in the sprint retrospective, it is not worked on in the current sprint.
 
 Halfway through the sprint a review is done ensuring that all tasks can be finished. If not, the sprint plan is quickly redone discussing which stories are to be dropped and a confirmation is done with the product owner about the new story priorities.
+
+<br />
+
+<h2 id="week4">Week 4: Agile Manifesto, DSDM Philosophy and Principles, Success Factors and Risks</h2>
+
+### Manifesto for Agile Software Development
+1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+
+2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
+
+3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+
+4. Business people and developers must work together daily throughout the project.
+
+5. Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+
+6. The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+
+7. Working software is the primary measure of progress.
+
+8. Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+
+9. Continuous attention to technical excellence and good design enhances agility.
+
+10. Simplicity--the art of maximizing the amount of work not done--is essential.
+
+11. The best architectures, requirements, and designs emerge from self-organizing teams.
+
+12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly. 
+
+Taken from https://agilemanifesto.org/principles.html
+
+### Dynamic Software Design Methodology (DSDM)
+DSDM is an agile methodology which primarily focuses on on the full project lifecycle. The main philosophy behind DSDM is to bring business value from each project. This is achieved when all stakeholders:
+- Understand and buy into the business vision and objectives
+- Are empowered to make decisions within their area of expertise
+- Collaborate to deliver a fit for purpose business solution
+- Collaborate to deliver to agreed timescales 
+- Accept that change is inevitable in projects and understand that a solution will grow over time
+
+We use DSDM because:
+- It has a broader focus than most Agile approaches as it puts the focus on projects more than the development and delivery of it
+- Has a long track record of success
+- Proven to be scalable being able to be implemented in small and large complex organisations
+- It's equally as effective for IT and non-IT related projects
+
+For DSDM to work all principles need to be followed, if not then this because a project risk in itself and must be addressed. These principles include:
+1. Focusing on the business needs:
+    - Understand the business priorities
+    - Establish a sound business case
+2. Being able to deliver on time:
+    - Timebox the work
+    - Focus on the agreed business priorities
+    - Always hit deadlines
+    - Build confidence through predictable delivery
+3. Collaboration between team members:
+    - Involve the right stakeholders at the right time
+    - Build a one-team culture
+4. To never compromise quality:
+    - Set a level of achievable quality
+    - Ensure the quality does not become a variable
+    - Build in quality by constant review
+    - Design and document appropriately and clearly
+5. Build incrementally from solid foundations:
+    - Carry out appropriate analysis
+    - Create a solid foundation first
+    - Formally re-assess priorities with each delivered increment
+6. Develop iteratively:
+    - Build products using an iterative approach
+    - Incorporate business feedback into each iteration
+    - Accept most details will emerge in the later stages of development
+    - Embrace change
+7. Always communicate clearly:
+    - Encourage informal communication between members
+    - Run daily stand-ups
+    - Keep documentation lean and timely
+    - Always aim for honesty and transparency
+8. Demonstrate control:
+    - Make plans and progress viable to all
+    - Manage proactively 
+    - Use appropriate level of formality for tracking and reporting
+    - Measure progress through delivery products
+    - Continuously evaluate the projects viability
+
+### Preparing for Success
+- Always adhere and follow the principles making as little deviations as possible
+- Understand the constraints the project is under:
+  - Consider the variables
+  - Think about the people
+  - Consider the principles
+- Deal with problems as they arise:
+  - Changing the deadline is not an option as time is fixed
+  - Adding resources is not an option as resources and cost is fixed
+  - Quality is not negotiable, everything must be held to a standard
+  - Avoid adding "Must Haves" after a baseline is set and agreed upon
+- Practice Agile project management
+- Asses the risks before the project begins e.g.
+  - Missing deadlines
+  - Assuming unknown or volatile requirements are clear and fixed
+  - Delivery of wrong solution
+  - User acceptance testing late in the development
+  - Not complying to the principles
+  - Non-availability of business roles
+  - Expecting a perfect 100% solution
+  - Swapping resources in and out during development
