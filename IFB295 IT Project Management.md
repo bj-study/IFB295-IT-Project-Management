@@ -12,7 +12,7 @@ Mark Walpole | Notes for IAB330 at the Queensland University of Technology
 		<li><a href="#week2">Week 2</a>: Why Agile? Scrum framework, Principles. and Roles</li>
 		<li><a href="#week3">Week 3</a>: Project cost, Velocity, Release planning, and Sprint planning meetings</li>
 		<li><a href="#week4">Week 4</a>: Agile Manifesto, DSDM Philosophy and Principles, Success Factors and Risks</li>
-		<li><a href="#week5">Week 5</a>: </li>
+		<li><a href="#week5">Week 5</a>: DSDM, people, teams and interaction</li>
 		<li><a href="#week6">Week 6</a>: </li>
 		<li><a href="#week7">Week 7</a>: </li>
 		<li><a href="#week8">Week 8</a>: </li>
@@ -341,3 +341,146 @@ For DSDM to work all principles need to be followed, if not then this because a 
   - Non-availability of business roles
   - Expecting a perfect 100% solution
   - Swapping resources in and out during development
+
+<h2 id="week5">Week 5: DSDM, people, teams and interactions</h2>
+
+### Roles
+
+#### Business Sponsor
+The business sponsor has the crucial responsibility of ensuring and enabling fast progress throughout the project. The business sponsor is usually the business owner but may not be in certain circumstances. 
+
+The business sponsors role is to:
+  - Ensure there is ongoing viability of the project
+  - Hold the budget for the project
+  - Ensures that funds and other important resources are made available as they're needed
+  - Ensure that the decision-making process is efficient and rapid
+  - Responds to escalated issues being the ultimate point for conflict resolution
+  - Is always kept informed of the current progress and any known issues
+  - and more...
+
+#### Business Visionary
+The business visionary is there to provide a vision for the business project.
+
+The business visionary's role is to:
+  - Define the business vision for the project
+  - Communicate and promote the business vision
+  - Monitor progress of the project and make sure it keeps inline with the business vision
+  - Contribute to key requirements, design and review sessions
+  - Define and approve changes to high-level requirements in the priorities requirements list
+  - Ensure collaboration is happening across all stakeholder business areas
+  - Ensure that the business resources needed are provided
+  - Empower the business roles within the solution development team
+  - and more...
+
+#### Technical Coordinator
+The technical coordinator is the technical authority on the project and ensures that the solution and technical roles work in a consistent and coherent way.
+
+The technical provide's role is to:
+  - Agree to and control the technical architecture
+  - Determine the technical environments
+  - Advise and coordinate each teams technical activities
+  - Approve the solution as technically fit for purpose prior to deployment
+  - Be the final arbiter of any technical difference between solution development team members
+  - and more...
+
+#### Project Manager
+The project manager is responsible for providing high-level agile-style leadership to the solution development team.
+
+The project manager's role is to:
+  - Perform high-level project planning and scheduling
+  - Monitor progress against the base-lined deliver plan
+  - Manage risks and any issues, resolving them via collaboration with senior business or technical roles
+  - Handle problems escalated from the solution development team
+  - Motivate and ensure appropriate involvement and communication between required members
+  - and more...
+
+#### Business Analyst
+The business analyst is an active member in supporting the project-level roles and is fully integrated with the solution development team.
+
+The business analyst's role is to:
+  - Assist the business visionary in the formulation and promotion of the business vision
+  - Work with the project-level roles in formulating the business case
+  - Support and facilitate clear and timely communication
+  - Ensure requirements are defined, analysed, managed appropriately and of good quality
+  - and more...
+
+#### Team Leader
+A servant-leader for the solution development team, the team leader ensures that it functions as a whole and meets all required objectives.
+
+The team leader's role is to:
+  - Facilitate:
+    - The team focuses on the on-time delivery of agreed products
+    - Communication between the project manager about the teams progress
+    - Daily stand-ups
+    - Sprint reviews and retrospectives within the team
+  - Encourages full participation of team members within their defined roles
+  - Ensures that an iterative development process is taken
+  - and more...
+  
+#### Solution Developer
+The solution developer collaborates with other solution development team roles to interpret business requirements and help translate them into a solution increment.
+
+The solution developer's role is to:
+  - Work with other solution development roles to iteratively develop:
+    - The solution increment
+    - The models required to allow for a controlled development of the solution
+    - The models and documents as required for the purpose of supporting the deployed solution in a live production use.
+    - Required testing of their own work prior to independent testing
+  - and more...
+
+#### Solution Tester
+The solution tester is someone who provides testing throughout the project in accordance to some agreed strategy.
+
+The solution tester's role is to:
+  - Work with business roles to define a set of test scenarios and test cases
+  - Carry out all types of technical testing of the solution as a whole
+  - and more...
+
+#### Business Ambassador
+The business ambassador is the key representative of the business needs.
+
+The business ambassador's role is to:
+  - Contribute to all requirements, design and review sessions
+  - Provide a business perspective for day-to-day solution development decisions
+  - Communicate with other users and involving them as needed
+  - Provide a day-to-day assurance that the solution is evolving correction and in the right direction
+  - Organise and control the business acceptance testing 
+  - and more...
+
+#### Technical Advisor
+The technical advisor supports the team by providing specific technical input to the project. 
+
+The advice provided consists of:
+- Requirements, design, and review sessions
+- Operational perspective for day-to-day decisions
+- Day-to-day assurance that the solution is evolving correction and in the right direction
+- Operational acceptance testing
+- Development of technical support documentation
+- Training of technical operations and support staff
+- and more...
+
+
+### Communication
+Poor communications is one of the major cause of project failure. It's because of this that the agile approach focuses so heavily on on-going and effective communication. It does this by:
+- Having short feedback cycles
+- High visibility of the evolving solution
+- Only adding solution details at the point of development
+
+Here is the order of preferred methods of communication within a business:
+1. Face-to-Face
+2. Conferencing through video calls
+3. Phone
+4. Chat facilities (Microsoft Teams, Slack) or email
+5. Collaborative workspaces
+
+### DSDM Daily Stand-ups
+Very similar to a daily scrum, DSDM has a daily 15 minute stand-up meeting where the whole solution development team participate in talking about:
+- What they have been doing since the last stand-up meeting
+- What they will be doing from now until the next stand-up meeting
+- Any problems, risks, or issues they've run into that's causing slow progress
+
+### DSDM Facilitated Workshops
+Facilitated workshops are a special type of focused meeting where a group of people and an independent person, the workshop facilitator, get together to discuss some topic with the goal to achieve rapid decision making from the stakeholders involved.
+
+### DSDM Iterative Development
+DSDM use time boxes to facilitate their "sprints". These are similar in sprints in the way that they are fixed length periods of work happening sequentially after each other. This allows rapid feedback on the work that has been done during the period of time and gives the opportunity for the team to fail early allowing them to find out if the requirements are not being met earlier on during the projects lifecycle.
