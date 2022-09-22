@@ -13,9 +13,9 @@ Mark Walpole | Notes for IAB330 at the Queensland University of Technology
 		<li><a href="#week3">Week 3</a>: Project cost, Velocity, Release planning, and Sprint planning meetings</li>
 		<li><a href="#week4">Week 4</a>: Agile Manifesto, DSDM Philosophy and Principles, Success Factors and Risks</li>
 		<li><a href="#week5">Week 5</a>: DSDM, people, teams and interaction</li>
-		<li><a href="#week6">Week 6</a>: </li>
-		<li><a href="#week7">Week 7</a>: </li>
-		<li><a href="#week8">Week 8</a>: </li>
+		<li><a href="#week6">Week 6</a>: DSDM Process, Products, Phases, and Control using MoSCoW</li>
+		<li><a href="#week7">Week 7</a>: DSDM Requirements modelling, Structured timeboxes and Control with Iterative Development</li>
+		<li><a href="#week8">Week 8</a>: PM Agile vs Waterfall, PRINCE2 Overview, and Risk Management</li>
 		<li><a href="#week9">Week 9</a>: </li>
 		<li><a href="#week10">Week 10</a>: </li>
 		<li><a href="#week11">Week 11</a>: </li>
@@ -342,6 +342,8 @@ For DSDM to work all principles need to be followed, if not then this because a 
   - Expecting a perfect 100% solution
   - Swapping resources in and out during development
 
+<br />
+
 <h2 id="week5">Week 5: DSDM, people, teams and interactions</h2>
 
 ### Roles
@@ -484,3 +486,323 @@ Facilitated workshops are a special type of focused meeting where a group of peo
 
 ### DSDM Iterative Development
 DSDM use time boxes to facilitate their "sprints". These are similar in sprints in the way that they are fixed length periods of work happening sequentially after each other. This allows rapid feedback on the work that has been done during the period of time and gives the opportunity for the team to fail early allowing them to find out if the requirements are not being met earlier on during the projects lifecycle.
+
+<br />
+
+<h2 id="week6">Week 6: DSDM Process, Products, Phases, and Control using MoSCoW</h2>
+
+### DSDM Process
+The DSDM process is an iterative and incremental process consisting of six lifecycle phases. This framework is designed to work effectively with projects of varying sizes and complexity. The phases are:
+1. Pre-Project:
+    - What happens:
+      - Describe the business problem being addressed
+      - Identification of business sponsors and business visionaries
+      - Confirmation the project is in line with the business strategy
+      - The Scope, plan, and resource feasibility is discussed
+2. Feasibility
+    - What happens:
+      - Establishing whether there is a feasible solution to the problem from both a business and technical perspective
+      - Identification of benefits and costs
+      - Identification of possible approaches for the delivery
+      - Plan and resource foundations phase
+    - What's delivered:
+      - Milestone product (Delivered now):
+        - Feasibility Assessment
+      - Evolutionary products (Delivered later):
+        - Business Case
+        - Prioritised Requirements List (PRL)
+        - Solution Architecture Definition
+        - Development Approach Definition
+        - Delivery Plan
+        - Management Approach Definition
+3. Foundations
+  - What happens:
+    - A firm business foundation for the project is established
+    - A firm foundation for the solution is established
+    - A firm foundation for how the project is to be managed
+    - Continual assessment of the project's viability
+  - What's delivered:
+    - Milestone products (Delivered now):
+      - Everything from the previous step
+      - Foundations Summary
+    - Evolutionary products (Delivered later):
+      - Everything from the previous step
+4. Evolutionary Development
+    - What happens:
+      - Elaborate requirements baseline in PRL during Foundations
+      - Explore full detail of the business needs and provide detailed requirements for the evolving solution
+      - Create a functional solution that demonstrates the business value and needs through iterative development
+      - Give a wider view of the early solution to the organisation
+      Detailed plan of how the solution under development will become operational
+5. Deployment
+    - What happens:
+      - Bring a baseline of the evolving solution into production
+      - The release of the solution is a final solution or a subset of the final solution
+      - Assemble, Review, Deploy, Repeat
+6. Post-Projects
+    - What happens:
+      - Checks on how well the expected business benefits have been achieved
+      - Produces one or more benefits assessments for these realised benefits in relation to the business case
+
+### DSDM Products
+![DSDM Products](./assets/DSDM-Products.png)
+
+**Product Breakdown**
+- Orange: Business focused products
+- Green: Contributes to the solution being created
+- Blue: Project Management (control interests)
+- G: Plays a part in governance processes
+
+**Types of Products**:
+1. **Milestone products:** A product created within the phase, typically fulfilling a specific purpose within that phase as a checkpoint.
+2. **Evolutionary products:** A product created within the phase but designed to evolve over time. These products typically span a number of project phases and may be baselined more than once during that time.
+
+### MoSCoW Prioritisation
+| Effort Distribution | Description | Deliverable |
+| --- | --- | --- |
+| 60% or less | Cannot be de-scoped or the project fails | Guaranteed (Must) |
+| 20% | Can be de-scoped as a last resort to keep the project on track | Expected (Should) |
+| 20% | Can be de-scoped without causing significant problems | Possible (Could) |
+| 0% | Out of scope | Maybe next time (Wont) |
+
+### Prioritisation - BABOK Criteria
+BABOK 3.0 suggests 8 factors that influence the prioritisation of requirements:
+1. **Benefit/Value**: It is the advantage that the business accrues as a result of the requirement implementation
+2. **Penalty**: It is the consequence of not implementing a requirement
+3. **Cost**: It is the effort and resources that are required to implement a requirement
+4. **Risk**: It is the probability that the requirement might not deliver the expected value
+5. **Dependencies**: It is the relationship between requirements
+6 **Time sensitivity**: Everything comes with an expiration date
+7. **Stability**: The likelihood that the requirement remaining static
+8. **Regulatory/Policy compliance**: Those requirements that must be implemented to meet the regulatory or policy requirements
+
+<br />
+
+<h2 id="week7">Week 7: DSDM Requirements modelling, Structured timeboxes and Control with Iterative Development</h2>
+
+### Modelling & Prototyping
+Modelling techniques are ways to improve communication during the project and prompt the correct questions. They improve understanding of requirements via visual representations and support transparency by simplifying the core elements of a requirement. They also help abstract relevant information for clarity and allow cross-checking for consistency.
+
+**Modelling Techniques**
+- User stories
+- Flow charts
+- Swim lane diagrams
+- Process models
+- Class models
+- Use case & Use case diagrams
+- and more...
+
+**Prototyping Techniques**
+- Story boards
+- Wireframes
+- PowerPoint with live links
+- Web tools e.g. Wix.com
+- Dedicated tools e.g. Axure RP
+- and more...
+
+| DSDM Phase | Modelling Level |
+| --- | --- |
+| Pre-Project | Existing high-level models can be used to illustrate how the project, or its solution, fits into the wider picture of change |
+| Feasibility | The model supports a simple "big picture" view of what is being proposed and are used to explore possibilities and help communicate options |
+| Foundations | A more precise and elaborate collection of models to help communicate plans and intentions to a variety of audiences |
+| Evolutionary Development | High-level models continue to be evolved in terms of depth and detail. This helps explore the detail of requirements and ways that these can be met as part of the evolving solution |
+| Deployment | No new models are created but rather models from the previous stages are used to help operate and support the solution |
+| Post-Project | Models used are refined to help operate and support the solution in line with any changes to the deployed solution over time |
+| Progressive business change | As the solution is deployed, the "as is" models give way to the "to be" models that represent the new product or service |
+
+### Timeboxing
+Timeboxes are similar to sprints, they are iterative periods of time where at any point the whole solution development team has visibility of the progress and any early warnings that the timebox objectives are at risk.
+
+DSDM timeboxes are comprised of three main steps:
+1. Investigation (10-20% of effort)
+2. Refinement (60-80% of effort)
+3. Consolidation (10-20% of effort)
+
+Each iteration of a timebox consists of the following stages with each stage ending with a review:
+- Kick-Off: A time to understand the objectives and accept them
+- Investigate: A time to confirm the details of all requirements and the product that's to be delivered
+- Refine: A time to refine and develop the product in line with the agreed priorities
+- Consolidate: A time to consolidate the product and ensure all products meet their agreed acceptance criteria
+- Close-Out: A time where the business visionary and technical coordinator formally accept the deliverables
+
+![DSDM Timeboxes](./assets/DSDM-Timeboxing.png)
+
+### Categories of Requirements
+Requirements can be defined in three separate categories:
+1. Functional Requirements (FRs)
+2. Non-functional Requirements (NFRs)
+3. Includes Usability Requirements
+
+#### Functional Requirements
+Functional requirements express functions or features and define what is required. They do not however, state how the solution will be physically implemented or achieved.
+
+#### Non-functional Requirements
+Non-functional requirements define how well, or to what level, the solution must perform. They describe solution attributes such as the usability, security, performance, reliability, maintainability, etc.
+
+NFRs can be either:
+- **Solution wide or impacting a group of functional requirements:** e.g. All customer facing functionality must be available 24/7 or All customer facing functionality must respond within 2 seconds.
+- **Related to a particular functional requirement:** e.g. Hire conference venue might have NFRs of accessibility, security, etc. 
+
+### Delivery Plan
+Once then foundations phase has been complete, a better understanding of the requirements is defined. It's now possible to create a delivery plan focused around two main areas:
+1. Scheduling work
+2. Defining the approach that needs to be taken
+
+The deliver plan defines the following:
+- Describes the overall structure and approach to be adopted when working in the defined timeboxes
+- Confirms the exact amount fo resources the project has access to
+- Outlines the number and length of timeboxes that will be used
+- An outline of the project increments with an agreeing strategy for deployment and benefits realisation
+
+#### Scheduling Work
+The delivery plan should state a plan for how deployment of the current increment and future agreed timeboxes leading up to the deployment are handled. As each increment is completed, a new schedule for the timebox is created.
+
+In the project evolutionary phase, the next timebox is planned out. For the next timebox, the solution development team will:
+- Agree and record what they will be working on and the MoSCoW priorities
+- Predict what will be deliver, what is likely to be achieved and what may or may not get done in time
+
+It's important to remember that this is not a detailed task plan but more or less a way to record and predict:
+- The planned outcomes
+- Acceptance criteria
+- MoSCoW priorities
+- Key milestones and such dates for review
+
+### DSDM Planning and Quality
+Throughout the whole DSDM process quality is a key focus. 
+- When in the feasibility phase, all the risks are considered at a high level. 
+- During the foundations phases:
+  - Questions are asked to assist in refining good high-level requirements
+  - A three-way collaboration between the business roles, solution developers, and solution tester is established
+  - The aspects that need the most attention are identified
+  - The required non-functional testing is defined and agreed upon
+- During the evolutionary development phases
+  - Necessary quality assurance activities are planned out
+  - The tests required are defined upfront
+  - The highest value tests are identified
+  - Quality and impact are assessed
+- Finally, during the deployment phase
+  - The tests are fully packaged ready to be delivered
+
+<br />
+
+<h2 id="week8">Week 8: PM Agile vs Waterfall, PRINCE2 Overview, and Risk Management</h2>
+
+### Selecting the right project management methodology
+1. Start with the end in mind:
+    - Look at the requirements of the project
+    - Think about what the final deliverable will need to look like
+    - What benefits should the methodology provide?
+2. What's already working?
+    - Look at the processes that are currently in place already
+    - What kind of working environment does the team excel in?
+    - Does your team thrive on collaboration, incorporating feedback and new ideas as they work, or do they prefer to work in an orderly, structured plan?
+3. Research the methodologies
+    - Which methodologies best support the projects goals and teams strengths
+    - Choose a methodology that complements the projects constraints, tools, and people
+
+**Methodologies that are traditional and/or structured**:
+- Waterfall
+- PRINCE2
+- PRiSM
+- CMMI / ISO
+- Spiral
+
+**Methodologies that are agile and/or iterative**:
+- Agile
+- Scrum
+- DSDM
+- Extreme (XP)
+- Event Chain
+- Rational Unified Process (RUP)
+- Crystal
+
+**Agile-Waterfall Hybrid**: The best of both worlds: The dynamic, responsiveness of Agile with the deliberate predictability of Waterfall
+
+### Selecting Agile or Waterfall
+
+| Metric | Waterfall | Agile |
+| --- | --- | --- |
+| Planning scale | Long-term | Short-term |
+| Distance between customer and developer | Long | Short |
+| Time between specification and implementation | Long | Short |
+| Time to discover problems | Late | Early |
+| Project schedule risk | High | Low |
+| Ability to respond quickly to change | Low | High |
+
+| Cynefin Domain | Cause and Effect | Risk Type | Cost of Change | PM Approach | Examples |
+| --- | --- | --- | --- | --- | --- |
+| Simple | Obvious | Known-known | Very High | Standard Operating Procedures | Postal Services |
+| Complicated | Requires analysis | Known-unknown | High | Waterfall | Civil engineering | 
+| Complex | Perceive in retrospect | Unknown-unknown | Low | Agile | Software development & IS development |
+| Chaotic | None | Unknown-unknown | Very Low | Agile | Fire rescue services |
+
+**Considerations**:
+- Consider the variables: Is there flexibility in depth and detail of features?
+- Think about the people: Are the roles capable of and committed to the projects approach?
+- Consider the principles: Will the organisation support this way of working?
+- This is rarely a black and white decision: There are many shades of grey
+
+### PRINCE2 Overview
+PRINCE2 is a process-based project management methodology that was developed in the United Kingdom. PRINCE2 is the de facto standard for project management in the UK government.
+
+**PRINCE2 Principles**:
+1. **Continued Business Justification**: The project must be justified at all ti emes
+2. **Learn from Experience**: The project must learn from past experience
+3. **Defined Roles and Responsibilities**: The project must have clearly defined roles and responsibilities
+4. **Manage by Stages**: The project must be managed in stages
+5. **Manage by Exception**: The project must be managed by exception
+6. **Focus on Products**: The project must focus on products
+7. **Tailor to Suit the Project**
+
+![PRINCE2 Overview](./assets/PRINCE2-principles.png)
+
+**PRINCE2 Interests**:
+1. User
+2. Business
+3. Supplier
+
+**Organisational Structure**:
+![PRINCE2 Organisation](./assets/PRINCE2-organisation.png)
+
+**PRINCE2 Project Assurance**:
+![PRINCE2 Assurance](./assets/PRINCE2-assurance.png)
+
+**PRINCE2 Processes**:
+1. Starting up a project
+2. Directing a project
+3. Initiating a project
+4. Controlling a stage
+5. Managing product delivery
+6. Managing stage boundaries
+7. Closing a project
+
+![PRINCE2 Processes](./assets/PRINCE2-processes.jpg)
+
+### Risk Management
+Risk management is the process of identifying, analysing, and responding to project risk factors throughout it's life. A project risk is any possible event that could positively or negatively impact the project's objectives and viability. Risks can be calculated using the following formula: **Probability (0-1) x Consequence ($) = Risk**
+
+The objectives of risk management are to:
+- Increase the probability and impact of positive events
+- Decrease the probability and impact of negative events
+
+### Risk Management Procedure
+1. Identify (Event + Cause)
+2. Address (Probability impact + Proximity)
+3. Plan the response (Mitigation, Transfer, Acceptance)
+4. Implement the response (Plan, Monitor, Review)
+5. Communicate the response (Report, Review)
+
+### Risk Register
+Each risk should be recorded in a risk register. The risk register should include the following information:
+- **Risk ID**: A unique identifier for the risk
+- **Risk Author**: The person who identified the risk
+- **Date Recorded**: The date the risk was recorded
+- **Risk Description**: A description of the risk. This is written in a specific format e.g. cause, event and effect.
+- **Risk Category**: The category of the risk e.g. quality, network and supplier.
+- **Probability Impact**: The probability and impact of the risk e.g. very low, low, normal, etc.
+- **Proximity**: The proximity of the risk e.g. near, medium, far.
+- **Risk Response Category**: The category of the risk response e.g. threat or opportunity.
+- **Risk Response Plan**: Actions to resolve the risk.
+- **Risk Response Owner**: The person responsible for managing the risk.
+- **Risk Owner**: The person responsible for managing the risk.
+- **Risk Actionee**: The person responsible for carrying out the risk response plan.
