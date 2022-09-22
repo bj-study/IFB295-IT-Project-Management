@@ -9,14 +9,14 @@ Mark Walpole | Notes for IAB330 at the Queensland University of Technology
 	<li><a href="#IFB295">IFB295: IT Project Management</a></li>
 	<ul>
 		<li><a href="#week1">Week 1</a>: Project Management, User Stories, Scrum, and Teamwork</li>
-		<li><a href="#week2">Week 2</a>: Why Agile? Scrum framework, Principles. and Roles</li>
+		<li><a href="#week2">Week 2</a>: Why Agile? Scrum framework, Principles, and Roles</li>
 		<li><a href="#week3">Week 3</a>: Project cost, Velocity, Release planning, and Sprint planning meetings</li>
 		<li><a href="#week4">Week 4</a>: Agile Manifesto, DSDM Philosophy and Principles, Success Factors and Risks</li>
 		<li><a href="#week5">Week 5</a>: DSDM, people, teams and interaction</li>
 		<li><a href="#week6">Week 6</a>: DSDM Process, Products, Phases, and Control using MoSCoW</li>
 		<li><a href="#week7">Week 7</a>: DSDM Requirements modelling, Structured timeboxes and Control with Iterative Development</li>
 		<li><a href="#week8">Week 8</a>: PM Agile vs Waterfall, PRINCE2 Overview, and Risk Management</li>
-		<li><a href="#week9">Week 9</a>: </li>
+		<li><a href="#week9">Week 9</a>: PRINCE2 Scope, Roles, and Planning. Planning Techniques</li>
 		<li><a href="#week10">Week 10</a>: </li>
 		<li><a href="#week11">Week 11</a>: </li>
 		<li><a href="#week12">Week 12</a>: </li>
@@ -806,3 +806,133 @@ Each risk should be recorded in a risk register. The risk register should includ
 - **Risk Response Owner**: The person responsible for managing the risk.
 - **Risk Owner**: The person responsible for managing the risk.
 - **Risk Actionee**: The person responsible for carrying out the risk response plan.
+
+<br />
+
+<h2 id="week9">Week 9: PRINCE2 Scope, Roles, and Planning. Planning Techniques</h2>
+
+### PRINCE2 Summary
+PRINCE2, or PRojects IN Controlled Environments, is a wide applicable generic framework for project management. It is a product-based methodology where the project is focused on producing actual deliverables. 
+
+**PRINCE2 Principles**:
+1. Continued Business Justification
+2. Defined roles and responsibilities
+3. Learn from experience
+4. Manage by stages
+5. Manage by exception
+6. Tailor to suit the project environment
+
+**Processes**:
+1. Starting up a project (SU)
+2. Initiating a project (IP) - Time, cost, quality, scope, risk, resources
+3. Directing a project (DP) - Project Board manages: Initiation, stage boundaries, ad hox guidance, closure
+4. Controlling a stage (CS) - Project manager: Authorises work packages
+5. Managing stage boundaries (SB) - Review at each stage boundary then decide whether to continue or not
+6. Managing product delivery (MP) - Accept, execute, deliver
+7. Closing a project (CP) - Terminate project, handover deliverables 
+
+**Stages**:
+1. Pre-project
+2. Initiation
+3. Subsequent stages
+4. Final
+5. Post-project
+
+### PRINCE2 Scope
+The projects scope is defined in the project planning stage and defines and documents the required project goals, tasks and deadlines. It acts as a way of communicating key information about the project to stakeholders.
+
+The scope should be defined at the very beginning of the project and must be authorised by the project board. Once the scope of the project has been mapped out, planning can then commence. Only when the scope of the project is correctly managed can the PRINCE2 project manager ensure the deliverables within the requirements (cost, risk, time, and quality) are met.
+
+A scope statement is then used to confirm a common understanding of the projects scope. This typically includes the following information:
+- Product or service requirements and characteristics
+- Summary of all deliverables
+- Cost and schedules
+- Constraints and assumptions
+- Acceptance criteria
+
+### PRINCE2 Project Brief
+The project brief is a document that is used to communicate important information about the project to stakeholders. It should include the following information:
+- **Project Definition**: A description of the project and its purpose
+- **Project Objectives**: The goals of the project (Specific, Measurable, Achievable, Realistic, Time-bound))
+- **Project Scope and Exclusions**: The scope of the project. A clear statement of deliverables and won't haves
+- **Project Constraints and Assumptions**: The constraints of the project with assumptions and limiting req'ts identified
+- **Stakeholders**: The people who are affected by the project or interested in its outcome
+- **Business Case**: The justification for the project
+- **Project Product Description**: A description of the project's deliverables, quality expectations, acceptance criteria, and more
+- **Project Management Team Structure**: The project management team structure and roles
+- **... and more**
+
+### Scope Creep
+Scope creep is the uncontrolled expansion of the project's scope. It is a common problem in project management and can be caused by a number of factors. Scope creep can be managed by monitoring, controlling and formalising any changes made to the project.
+
+### PRINCE2 Roles
+
+#### Project Manager
+The project manager is responsible for the overall management of the project. They are responsible for:
+- Planning and managing the project
+- Defining responsibilities within the team
+- Monitoring progress
+- Initiating corrective action if needed
+- Reporting to the project board
+- Participation in control
+- Day to day management
+
+### PRINCE2 Project Planning
+PRINCE2 uses a product based planning technique to identify and analyse the planned products. When planning a project using PRINCE2 five questions need to be asked:
+1. Why
+2. What
+3. Who
+4. When
+5. How much
+
+There are three levels to planning: 
+1. Project Plan: A high level plan
+2. Stage Plan: A plan created at each stage of the projects development cycle
+3. Team Plan: A plan based on the work needed to be completed by the team
+
+### PRINCE2 Planning Process
+1. Design the plan (Choose a plan format)
+2. Define and analyse the products (Product based planning)
+3. Identify activities and dependencies (Use product descriptions and product breakdown structure (PBS) diagram)
+4. Prepare estimates (Involve experts)
+5. Prepare the schedule (Define activity sequence and add assigned resources)
+6. Document the plan (Assumptions, constraints, risks, external dependencies, etc.)
+
+Steps 2-6 are repeated for the project plan, stage plan, and optionally the team plan.
+
+### Work Package
+A work package consists of activities and includes estimates fo the required resources, time, and cost to complete all of these. These costs are then used to determine the overall budget estimate for the project.
+
+### Network Diagram
+A network diagram is a visual way to represent the relationships between WBS tasks. It can be used for many things such as:
+- Calculating the duration of the project
+- Determining which tasks are critical and those with slack
+- Help schedule resources
+- Creating a schedule by identifying the start and finishing times of tasks
+
+**Logical Relationships**:
+- Finish to Start
+- Finish to Finish
+- Start to Start
+- Start to Finish
+
+**Creating a Network Diagram**:
+1. Calculate the estimated time for each WBS task
+2. Determine the relationships between tasks using precedence
+3. Draw the network diagram
+![Network Diagram](./assets/network-diagram-example.png)
+4. Determine the duration of the project by calculating the earliest and latest finish times for each task with a forward pass through the network
+![Network Diagram Forward](./assets/network-diagram-forward-example.png)
+5. Determine the critical path tasks and those with slack by calculating the latest start and finish times for each task with a backward pass through the network
+![Network Diagram Backward](./assets/network-diagram-backward-example.png)
+![Network Diagram Critical Path](./assets/network-diagram-critical-example.png)
+
+**Reducing Project Duration**:
+- Eliminate tasks on the critical path
+- Convert serial paths to parallel paths when possible
+- Overlap sequential tasks using laddering
+- Shorten the duration on critical path tasks, Identify potential tasks to shorten the duration by following the ranked list:
+    1. Early tasks
+    2. Longest tasks
+    3. Easiest tasks
+    4. Tasks that cost the least to speed up
