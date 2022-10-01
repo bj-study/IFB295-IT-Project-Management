@@ -17,9 +17,9 @@ Mark Walpole | Notes for IAB330 at the Queensland University of Technology
 		<li><a href="#week7">Week 7</a>: DSDM Requirements modelling, Structured timeboxes and Control with Iterative Development</li>
 		<li><a href="#week8">Week 8</a>: PM Agile vs Waterfall, PRINCE2 Overview, and Risk Management</li>
 		<li><a href="#week9">Week 9</a>: PRINCE2 Scope, Roles, and Planning. Planning Techniques</li>
-		<li><a href="#week10">Week 10</a>: </li>
-		<li><a href="#week11">Week 11</a>: </li>
-		<li><a href="#week12">Week 12</a>: </li>
+		<li><a href="#week10">Week 10</a>: Gantt Charts, Resource levelling, and costing. Closing a Project</li>
+		<li><a href="#week11">Week 11</a>: Risk Management, Governance, and PRINCE2 Process Model. Integrating PRINCE2 & DSDM</li>
+		<li><a href="#week12">Week 12</a>: Change Management, Scalability, and ISO Standard 21500</li>
 		<li><a href="#week13">Week 13</a>: </li>
 	</ul>
 </ul>
@@ -936,3 +936,171 @@ A network diagram is a visual way to represent the relationships between WBS tas
     2. Longest tasks
     3. Easiest tasks
     4. Tasks that cost the least to speed up
+
+<hr /> 
+
+<h2 id="week10">Week 10: Gantt Charts, Resource levelling, and costing. Closing a Project</h2>
+
+### Gantt Chart
+A gantt chart is a visual representation of a project schedule.
+
+There are many benefits to using a Gantt chart such as:
+- Easy to create and comprehend
+- Identify the schedule baseline
+- Allow for updating and control
+- Identify resource needs
+
+There are however, also some disadvantages to using a Gantt chart such as:
+- They are only accurate when updated
+- Difficult to accurately estimate the time to completion
+- If behind on schedule it does not display the source of problems
+
+### Resources
+A resource is anything needed to complete some task, this could be money, materials, equipment, facilities and more.
+
+Resource Loading: The amount of individual resources an existing schedule requires during specific time periods.
+
+Over-allocation: This occurs when more resources are assigned than are available to perform the work at a given time.
+
+### Constraints
+A project constraint is anything that restricts or dictates the actions of the project team. These could be cost, time, scope, quality, resources and risks.
+
+PRINCE2 refers to constraints as tolerances. Tolerances are used at all three planning levels of a project.
+
+### Resource Levelling
+Resource levelling is a technique to resolve resource conflicts by delaying tasks. This in turn creates a smoother distribution of resource usage and reduces over-allocation.
+
+The object of resource levelling is to:
+1. Determine the resource requirements for each task so that they will be available at the right time.
+2. Allow each activity to be scheduled with the smoothest possible transition across resource usage levels
+
+To identify tasks to alter in order to level resources, the following steps are taken in priority order:
+1. Smallest amount of slack
+2. Smallest duration
+3. Lowest ID number (First come, first served)
+4. Greatest number of successor tasks
+5. Requiring the most resources
+
+### Project Costing
+Once a good resource requirements list has been developed, PMs and their team must develop several estimates for the costs of the resources.
+
+A rough order of magnitude estimate, or ROM, can provide an estimate for what the project will cost. The accuracy of this estimate is usually -50% to +100%%, this means that the actual cost could be 50% below the ROM or 100% above.
+
+A budgetary estimate is used to allocate money into an organisations budget. These estimates are typically done a couple years before the project is even started and generally have an accuracy of -10% to +25%.
+
+A definitive estimate is used to provide an accurate estimate of the project cost. The accuracy range for this estimate is usually -5% to +10%.
+
+Project Costing Techniques:
+- Delphi Technique
+- Parametric Estimating
+- Three Point Estimating
+- Single Point Estimating
+- Comparison Estimating
+- Bottom Up Estimating
+- Top Down Estimating
+
+### Closing a Project
+There is typically two ways a project will close:
+1. Planned Closure: This is due to the project being completed with acceptance of products.
+2. Premature Closure: This is when the project is terminated early by the project board.
+
+When a project is closed, the following steps are taken:
+- The products, whether finished or not, are handed over to the customer
+- The project objects are evaluated with the actuals and an end project report is written
+- A notification to the project board is sent notifying the projects closure.
+- and more...
+
+<hr /> 
+
+<h2 id="week11">Week 11: Risk Management, Governance, and PRINCE2 Process Model. Integrating PRINCE2 & DSDM
+</h2>
+
+### Risk Management
+Risk management is the process of identifying, analysing, and responding to project risks. The goal of risk management is to reduce the probability and impact of negative events or increase the probability and impact of positive events.
+
+We can calculate the risk of a project by using the following formula: Risk = Probability x Impact
+
+![Risk vs Stake](./assets/risk-vs-stake.png)
+
+The objectives of risk management are to:
+- Increase the probability and impact of positive events
+- Decrease the probability and impact of negative events
+
+with known risks first identified and analysed allowing a plan to be developed to mitigate the risks. Unknown risks cannot be managed and therefore require a contingency plan. The risk tolerance of a project is the amount of risk that is acceptable to the project board.
+
+### Risk Matrix
+A risk matrix is a visual representation of the probability and impact of a risk. The risk matrix is used to determine the risk level of a risk.
+
+### Project Governance
+Project governance is the process of ensuring that the project is being managed in accordance with the project management plan. This is done by the project board.
+
+![Project Governance](./assets/project-governance.png)
+
+### PRINCE2 Project Governance
+The PRINCE2 project governance model is made up of the following:
+- Three pillars of project governance:
+  - Structure: Decision rights of all parties involved in the project
+  - People: Committee members
+  - Information: Informs decision makers, reports, etc...
+- Four governance principles:
+  - Ensure a single point of accountability
+  - Project ownership is independent of Asset or Service ownership or other stakeholder groups
+  - Ensure separation of stakeholder management and project decision making activities
+  - Ensure separation of project and organisational governance
+
+<hr /> 
+
+<h2 id="week12">Week 12: Change Management, Scalability, and ISO Standard 21500</h2>
+
+### Change Management (CM)
+Change within a project is inevitable. Change management is the process of managing changes to a project in order to minimise the negative impact of the change. Changes made to the requirements of the project should be documented and controlled formally.
+
+The change management process ensures that:
+- Changes are made systematically
+- Similar information is collected for each change
+- Analysis is performed on the impact of the change (cost, benefits, and timing)
+- The requirements document is updated to reflect the change 
+
+
+### PRINCE2 Change Management
+PRINCE2 uses an issue and change management approach. This approach is defined in the initiation stage and reviewed at the end of each stage.
+
+Issues are defined as any relevant event that was not planned for and requires a response. The three types of issues are:
+- Request for Change: Proposal for change to a product
+- Off-Specification: Agreed but not delivered
+- Problem/Concern - Issues PM to resolve or escalate
+
+PRINCE2 uses six management products for change management:
+1. Configuration Management Strategy: How the project will manage changes to the project products
+2. Configuration Items Records: Set of data for each product used in the project
+3. Product Status Accounts: Report on the status of each product
+4. Daily Log: Project Manager's record for informal information
+5. Issue Register: Record of all issues
+6. Issue Reports: Detailed reports on issues
+
+PRINCE2 issue and change control process:
+1. Capture
+2. Examine
+3. Propose
+4. Decide
+5. Implement
+
+### Scalability
+Scalability is the ability of a project to be expanded or contracted to meet the needs of the project. This is done by adjusting the scope of the project.
+
+### ISO Standard 21500:2012
+ISO 21500 is the international standard for project management. It is a generic standard that can be used for any project. It describes PM basics in terms of concepts and processes.
+
+It can be used for:
+- Portfolios: A collection of projects
+- Programmes: A collection of projects that are related
+- Projects: A temporary endeavour to create a unique product, service, or result
+
+### Other Standards and Frameworks
+- PMBoK
+- PRINCE2
+- PRINCE2 Agile
+
+<hr /> 
+
+<h2 id="week13">Week 13: </h2>
